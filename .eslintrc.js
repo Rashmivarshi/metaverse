@@ -3,10 +3,6 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  rules: {
-    "prettier/prettier": ["error", { SingleQuote: true }],
-    quotes: ["error", "single", { avoidEscape: true }],
-  },
   extends: ["plugin:react/recommended", "airbnb"],
   parserOptions: {
     ecmaFeatures: {
@@ -17,10 +13,12 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
+    "prettier/prettier": ["error", { SingleQuote: true }],
+    quotes: ["error", "single", { avoidEscape: true }],
     "react/no-unescaped-entities": 0,
     "eslintreact/no-danger": 0,
-    "react/jsx-max-props-per-line": 0,
-    "react/jsx-first-prop-new-line": 0,
+    "react/jsx-max-props-per-line": "off",
+    "react/jsx-first-prop-new-line": "off",
     "no-console": 0,
     "jsx-a11y/label-has-associated-control": 0,
     "no-nested-ternary": 0,
