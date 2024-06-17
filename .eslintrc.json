@@ -1,6 +1,6 @@
 {
   "rules": {    
-    "prettier/prettier": ["error", { "singleQuote": true }],
+    "prettier/prettier": ["error", { "singleQuote": false }],
     "quotes": ["error", "single", { "avoidEscape": true }]
   }
 }
