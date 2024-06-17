@@ -1,6 +1,5 @@
 {
-  "rules": {    
-    "prettier/prettier": ["error", { "singleQuote": false }],
-    "quotes": ["error", "single", { "avoidEscape": true }]
-  }
+  "extends": "next/core-web-vitals"
+  
 }
+
