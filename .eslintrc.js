@@ -3,6 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  rules: {
+    // ...
+    "prettier/prettier": ["error", { singleQuote: false }],
+  },
   extends: ["plugin:react/recommended", "airbnb"],
   parserOptions: {
     ecmaFeatures: {
