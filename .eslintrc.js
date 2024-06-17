@@ -4,8 +4,8 @@ module.exports = {
     es2021: true,
   },
   rules: {
-    "prettier/prettier": ["error", { singleQuote: false }],
-    quotes: ["error", "single", { avoidEscape: true }],
+    "prettier/prettier": ["error", { DoubleQuote: true }],
+    quotes: ["error", "double", { avoidEscape: true }],
   },
   extends: ["plugin:react/recommended", "airbnb"],
   parserOptions: {
